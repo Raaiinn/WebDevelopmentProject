@@ -1,0 +1,9 @@
+  ngOnInit(): void{
+    let userParam: string;
+    let passParam: string;
+    userParam = ''+this.checkoutForm.value.login;
+    passParam =''+this.checkoutForm.value.password;
+    console.log('FormValue:', this.checkoutForm.value)
+    console.log('Login: ', this.checkoutForm.value.login);
+    console.log('Passwrod: ', this.checkoutForm.value.password);
+  }
